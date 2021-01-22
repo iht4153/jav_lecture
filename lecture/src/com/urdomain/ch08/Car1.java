@@ -1,0 +1,15 @@
+package com.urdomain.ch08;
+
+public class Car1 {
+	Tire frontLeftTire = new HankookTire();
+	Tire frontRightTire = new HankookTire();
+	Tire backLeftTire = new HankookTire();
+	Tire backRightTire = new HankookTire();
+	
+	void run() {
+		frontLeftTire.roll();
+		frontRightTire.roll();
+		backLeftTire.roll();
+		backRightTire.roll();
+	}
+}
