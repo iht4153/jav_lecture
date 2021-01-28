@@ -1,7 +1,5 @@
 package com.urdomain.ch13;
 
-import com.urdomain.ch11.Car;
-
 public class ProductExample {
 	public static void main(String[] args) {
 		Product<Tv, String> product1 = new Product<Tv, String>();
@@ -17,3 +15,4 @@ public class ProductExample {
 		String carModel = product2.getModel();
 	}
 }
+class Car{}
